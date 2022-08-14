@@ -37,6 +37,7 @@ a {
   max-width: 1000px;
 }
 
+/* HEADER */
 header {
   background-color: #000000;
 }
@@ -46,6 +47,11 @@ header .container {
   justify-content: space-between;
   align-items: center;
   min-height: 80px;
+}
+
+header .container h1 img {
+  height: 44px;
+  filter: contrast(110%);
 }
 
 header .container nav ul {
@@ -70,11 +76,37 @@ header .container nav ul li a img {
 header .container nav ul li a:hover {
   border-bottom: 3px solid #ffffff;
 }
+/* FIM HEADER */
 
-@media(max-width: 576px) {
-
-  header .container nav:nth-child(2) {
-    display: none;
-  }
-  
+/* BANNER */
+.banner {
+  background-color: lightgrey;
 }
+
+.banner ul li,
+.banner ul li img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.banner li li {
+  position: absolute;
+}
+
+.banner ul li div {
+  margin-top: -40px;
+}
+
+.banner ul li div .container .legenda {
+  width: fit-content;
+  background-color: #000000;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.banner ul li div .container .legenda p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+/* FIM BANNER */
