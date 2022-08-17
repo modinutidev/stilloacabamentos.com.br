@@ -7,6 +7,7 @@ font-family: 'Titillium Web', sans-serif;
 * {
   margin: 0;
   padding: 0;
+  transition-duration: 100ms;
 }
 
 body {
@@ -139,6 +140,11 @@ header .container nav ul li a:hover {
   background-color: #756c68;
   margin: 10px;
   border-radius: 10px;
+}
+
+.produtos div .container ul li a:hover {
+  transition-duration: 100ms;
+  transform: scale(1.05);
 }
 
 .produtos div .container ul li:nth-child(3n) a {
