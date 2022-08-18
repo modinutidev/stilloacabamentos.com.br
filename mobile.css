@@ -83,6 +83,10 @@
   .contato div .container main .item:last-child .content {
     padding-left: 0;
   }
+
+  .contato div .container main .item p {
+    padding-top: 10px;
+  }
   /* FIM CONTATO */
 
   /* FOOTER */
