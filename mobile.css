@@ -70,10 +70,36 @@
     margin-left: 0;
   }
   /* FIM MARCAS */
+
+  /* CONTATO */
+  .contato div .container main .item {
+    flex-basis: calc(100%);
+  }
+
+  .contato div .container main .item:first-child .content {
+    padding-right: 0;
+  }
+
+  .contato div .container main .item:last-child .content {
+    padding-left: 0;
+  }
+  /* FIM CONTATO */
+
+  /* FOOTER */
+
+  footer div .container {
+    height: 60px;
+  }
+
+  footer div .container p {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  /* FIM FOOTER */
 }
 
 @media (min-width: 768px) {
-  /* SOBRE */
+  /* QUEM SOMOS */
   .sobre div .container main .item {
     flex-basis: calc(100% / 2);
   }
@@ -85,7 +111,7 @@
   .sobre div .container main .item:first-child .content {
     margin-right: 10px;
   }
-  /* FIM SOBRE */
+  /* FIM QUEM SOMOS */
 
   /* PRODUTOS */
   .produtos div .container ul li {
@@ -104,6 +130,7 @@
   .marcas div .container ul li {
     flex-basis: calc(100% / 5);
   }
+
   .marcas div .container ul li:nth-child(5n) a {
     margin-right: 0;
   }
@@ -112,4 +139,19 @@
     margin-left: 0;
   }
   /* FIM MARCAS */
+
+  /* CONTATO */
+  .contato div .container main .item:first-child {
+    flex-grow: 2;
+  }
+
+  .contato div .container main .item:first-child .content {
+    padding-right: 10px;
+  }
+
+  .contato div .container main .item:last-child .content {
+    padding-left: 10px;
+    flex-grow: 1;
+  }
+  /* FIM CONTATO */
 }
