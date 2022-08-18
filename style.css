@@ -113,7 +113,7 @@ header .container nav ul li a:hover {
 }
 
 .banner ul li div .container .legenda p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 300;
 }
 /* FIM BANNER */
@@ -204,5 +204,12 @@ header .container nav ul li a:hover {
   height: 100px;
   object-fit: contain;
   border-radius: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(1);
+}
+
+.marcas div .container ul li a:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 /* FIM MARCAS */
