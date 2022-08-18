@@ -17,6 +17,9 @@
   /* FIM BANNER */
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
 @media (max-width: 768px) {
   /* PRODUTOS */
   .produtos div .container ul li {
@@ -43,4 +46,70 @@
     font-size: 1rem;
   }
   /* FIM PRODUTOS */
+
+  /* QUEM SOMOS */
+  .sobre div .container main .item {
+    flex-basis: 100%;
+  }
+
+  .sobre div .container main .item:last-child .content {
+    margin-top: 10px;
+  }
+  /* FIM QUEM SOMOS */
+
+  /* MARCAS */
+  .marcas div .container ul li {
+    flex-basis: calc(100% / 3);
+  }
+
+  .marcas div .container ul li:nth-child(3n) a {
+    margin-right: 0;
+  }
+
+  .marcas div .container ul li:nth-child(3n + 1) a {
+    margin-left: 0;
+  }
+  /* FIM MARCAS */
+}
+
+@media (min-width: 768px) {
+  /* SOBRE */
+  .sobre div .container main .item {
+    flex-basis: calc(100% / 2);
+  }
+
+  .sobre div .container main .item:last-child .content {
+    margin-left: 10px;
+  }
+
+  .sobre div .container main .item:first-child .content {
+    margin-right: 10px;
+  }
+  /* FIM SOBRE */
+
+  /* PRODUTOS */
+  .produtos div .container ul li {
+    flex-basis: calc(100% / 3);
+  }
+  .produtos div .container ul li:nth-child(3n) a {
+    margin-right: 0;
+  }
+
+  .produtos div .container ul li:nth-child(3n + 1) a {
+    margin-left: 0;
+  }
+  /* FIM PRODUTOS */
+
+  /* MARCAS */
+  .marcas div .container ul li {
+    flex-basis: calc(100% / 5);
+  }
+  .marcas div .container ul li:nth-child(5n) a {
+    margin-right: 0;
+  }
+
+  .marcas div .container ul li:nth-child(5n + 1) a {
+    margin-left: 0;
+  }
+  /* FIM MARCAS */
 }
