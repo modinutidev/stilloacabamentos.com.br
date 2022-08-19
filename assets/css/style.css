@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Titillium+Web:wght@300;400&display=swap');
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  transition-duration: 100ms;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h3,
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 96%;
+  max-width: 1000px;
+}
+
+/* HEADER */
+header {
+  background-color: #000000;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+header .container h1 img {
+  height: 44px;
+  filter: contrast(110%);
+}
+
+header .container nav ul {
+  display: flex;
+}
+
+header .container nav ul li a {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 10px;
+  border-bottom: 3px solid #000000;
+}
+
+header .container nav ul li a img {
+  height: 21px;
+  margin-bottom: 6px;
+}
+
+header .container nav ul li a:hover {
+  border-bottom: 3px solid #ffffff;
+}
+/* FIM HEADER */
+
+/* BANNER */
+.banner {
+  background-color: lightgrey;
+}
+
+.banner ul li,
+.banner ul li img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.banner li li {
+  position: absolute;
+}
+
+.banner ul li div {
+  margin-top: -40px;
+}
+
+.banner ul li div .container .legenda {
+  width: fit-content;
+  background-color: #000000;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.banner ul li div .container .legenda p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+/* FIM BANNER */
+
+/* PRODUTOS */
+
+.produtos {
+  padding: 30px 0;
+  background-color: #ede3df;
+}
+
+.produtos div .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.produtos div .container ul li a {
+  display: flex;
+  flex-direction: column;
+  background-color: #756c68;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.produtos div .container ul li a:hover {
+  transition-duration: 100ms;
+  transform: scale(1.05);
+}
+
+.produtos div .container ul li a img {
+  border-radius: 10px;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.produtos div .container ul li a h2 {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 20px 0;
+  color: #ffffff;
+}
+/* FIM PRODUTOS */
+
+/* QUEM SOMOS */
+.sobre {
+  padding-top: 30px;
+}
+
+.sobre div .container main {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.sobre div .container main .item .content p {
+  font-size: 1rem;
+  text-align: justify;
+  color: #5a5959;
+}
+
+.sobre div .container main .item .content img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* FIM QUEM SOMOS */
+
+/* MARCAS */
+.marcas {
+  padding-bottom: 30px;
+}
+
+.marcas div .container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.marcas div .container ul li a {
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.marcas div .container ul li a img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(1);
+}
+
+.marcas div .container ul li a:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+/* FIM MARCAS */
+
+/* CONTATO */
+.contato {
+  background-color: #b9aca6;
+  padding: 30px 0;
+}
+
+.contato div .container main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.contato div .container main .item iframe {
+  width: 100%;
+  height: 300px;
+  background-color: #f1f3f4;
+  border-radius: 10px;
+}
+
+.contato div .container main .item p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.contato div .container main .item p,
+.contato div .container main .item p span,
+.contato div .container main .item p a {
+  color: #000000;
+}
+
+.contato div .container main .item p .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contato div .container main .item p .subtitle {
+  font-weight: 600;
+}
+
+.contato div .container main .item p a {
+  display: inline;
+}
+/* FIM CONTATO */
+
+/* FOOTER */
+footer {
+  padding: 20px 0;
+  background-color: #57504d;
+}
+
+footer div .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+footer div .container p,
+footer div .container p a {
+  color: #ffffff;
+}
+
+footer div .container p {
+  font-size: 0.75rem;
+}
+
+footer div .container p a {
+  display: inline;
+}
