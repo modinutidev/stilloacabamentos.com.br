@@ -14,4 +14,5 @@
 Neste projeto foi aplicado novos aprendizados como o posicionamento de elementos utilizando o FlexBox, utilização da tag do HTML Picture onde especificar a imagem mais adequada a ser exibida de acordo com o tamanho do display e a utilização de Media Queries para realocar elementos também de acordo com o tamanho do display.
 
 <h2>Resultado</h2>
-![projeto](https://user-images.githubusercontent.com/48818414/186289750-d80bf8ae-86b6-49b0-89b2-70f075703ecf.png)
+
+![projeto](https://user-images.githubusercontent.com/48818414/186290120-8584a752-1c03-4f8e-b37e-c94889cce8dd.png)
