@@ -11,7 +11,7 @@
 <p>De posse destas informações, foi constatado que um site institucional estático já atenderia os objetivos da empresa, pois, as informações do site em geral são raramente atualizadas. Para desenvolver o projeto foi escolhido as técnologias: HTML, CSS, JavaScript e Versionamento com Git.</p>
 
 <h2>Sobre as tecnologias</h2>
-Neste projeto foi aplicado novos aprendizados como o posicionamento de elementos utilizando o FlexBox, utilização da tag do HTML <picture> onde especificar a imagem mais adequada a ser exibida de acordo com o tamanho do display e a utilização de Media Queries para realocar elementos também de acordo com o tamanho do display.
+Neste projeto foi aplicado novos aprendizados como o posicionamento de elementos utilizando o FlexBox, utilização da tag do HTML Picture onde especificar a imagem mais adequada a ser exibida de acordo com o tamanho do display e a utilização de Media Queries para realocar elementos também de acordo com o tamanho do display.
 
 <h2>Resultado</h2>
-![projeto](https://user-images.githubusercontent.com/48818414/186288387-55badce8-2033-49c7-9a1d-39da9b8ced35.png)
+![projeto](https://user-images.githubusercontent.com/48818414/186289750-d80bf8ae-86b6-49b0-89b2-70f075703ecf.png)
